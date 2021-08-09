@@ -19,7 +19,7 @@ COOKIES = {}
 
 def create_form():
     form = dict()
-    cookies = {'fr': '0ZvhC3YwYm63ZZat1..Ba0Ipu.Io.AAA.0.0.Ba0Ipu.AWUPqDLy'}
+    cookies = {'en': 'AffITPkv_G4Nh-6mfAsu0NZOJZH5-9Mbe-Et9FGVJlxTSyFXyixRgZM-OA4uPJqgzNoQyPu9JYTPap0k0o_TM3h_WTy0aPw4-NmKvDnH1N8QAA&smuh=36055&lh=Ac9IZK2-sGvGYCB4GBM'}
 
     data = requests.get(POST_URL, headers=HEADERS)
     for i in data.cookies:
